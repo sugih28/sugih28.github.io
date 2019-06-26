@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Sugih Ilmi Kalih Putra</title>
+		<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="asset/css/style-ikp.css">
+
+		<link rel="icon" href="asset/images/logo.png">
+    
+    	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div class="splash-screen">
+			<center>
+				<img src="asset/images/logo 2.jpg" alt="STAG" id="splash-img">
+				<h1 id="splash-txt">WELCOME</h1>
+			</center>	
+        </div>		
+        
+        <div class="container">
+            <div class="center-v">
+                <center>
+                    <br/><br/><br/><br/><br/><br/>
+                    <img src="asset/images/loading.gif" style="width: 100px" alt="LOADING">
+                    <p id="redirect-link">
+                        <br/>
+                        Click <a href="https://sugihikp.netlify.com">Here</a> if you not Redirect.
+                    </p>
+                </center>
+            </div>
+        </div>
+
+		<div class="footer">
+			<p>Copyright &copy; 2019 - IKP Production</p>
+		</div>
+
+		<!-- <audio src="audio/the-begining.mp3" autoplay="autoplay"></audio> -->
+
+		<script src="asset/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script src="asset/js/bootstrap.min.js" type="text/javascript"></script>
+
+		<script src="asset/js/typed.js" type="text/javascript"></script>
+
+		<br><br><br>
+
+		<script type="text/javascript">
+			// Splash Screen
+			setTimeout(function() {
+				$('.splash-screen').fadeOut(2000);
+			},2000);
+
+			setTimeout(function() {
+				$('#splash-img').fadeIn(500);
+			},500);
+
+			setTimeout(function() {
+				$('#splash-txt').fadeIn(1000);
+            },1000);
+            
+            setTimeout(function() {
+                $('#redirect-link').fadeIn(2000)
+            },4000);
+
+            setTimeout(function() {
+                window.location.href='https://sugihikp.netlify.com'
+            },3000);
+		</script>
+	</body>
+</html>
